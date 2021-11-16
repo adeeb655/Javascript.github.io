@@ -34,3 +34,23 @@ console.log(arr)
 // filter 
 const filter =arr.filter(element => element ===3 || element ===4);
 console.log(filter);
+
+// reverse 
+arr.reverse();
+console.log(arr);
+
+
+const item = [
+    { name: "book",price : 200},
+    { name: "keyboard",price : 250},
+    { name: "mouse",price : 100},
+    { name: "monitor",price : 2000},
+    { name: "cpu",price : 9000},
+]
+
+const totalprice = item.reduce((total, item) =>{
+    console.log("total",total)
+    console.log("item", item.price)
+}
+
+)
