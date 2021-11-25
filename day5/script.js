@@ -17,13 +17,22 @@ let shades = {
     green: "#f00f00",
     blue: "#000001",
 }
-// let newarr = []
-// newarr = Object.entries(shades);
-// console.log("users", newarr);
 
-
-let clone = []  //empty array
+let clone = []                 //empty array
 for( let arr in shades){ 
     clone[arr] = shades[arr]
 }
 console.log(clone);
+
+
+
+
+
+
+
+
+
+
+
+
+
