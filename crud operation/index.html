@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onformsubmit()">
+                    <div>
+                        <label for="productcode">Product code</label>
+                        <input type="text" name="productcode" id="productcode">
+                    </div>
+                    <div>
+                        <label for="product">Product Name</label>
+                        <input type="text" name="product" id="product">
+                    </div>
+                    <div>
+                        <label for="qty">Qty</label>
+                        <input type="text" name="qty" id="qty">
+                    </div>
+                    <div>
+                        <label for="perprice">Price</label>
+                        <input type="text" name="perprice" id="perprice">
+                    </div>
+                    <div class="form_action--button">
+                        <input type="Submit" value="Submit">
+                        <input type="Reset" value="Reset">
+                    </div>
+                </form>
+                <td>
+                    <table class="list" id="storelist">
+                        <thead>
+                            <tr>
+                                <th>Product Name</th>
+                                <th>Product Code</th>
+                                <th>Qty</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
